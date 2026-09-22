@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd frontend/user-app-css && npm install && npm run build",
+  "outputDirectory": "frontend/user-app-css/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
